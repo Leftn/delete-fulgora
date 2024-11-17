@@ -101,7 +101,27 @@ if data.raw.recipe["superconductor"] then
 		{type = "fluid", name = "light-oil", amount = 10},
 		{type = "item", name = "bioflux", amount = 1},
 		{type = "item", name = "plastic-bar", amount = 1},
-		{type = "item", name = "tungsten-carbide", amount = 1}
+		{type = "item", name = "tungsten-plate", amount = 1}
+	}
+end
+
+if data.raw.recipe["quantum-processor"] then
+	data.raw.recipe["quantum-processor"].ingredients = {
+		{type = "item", name = "tungsten-plate", amount = 1},
+		{type = "item", name = "processing-unit", amount = 1},
+		{type = "item", name = "superconductor", amount = 1},
+		{type = "item", name = "carbon-fiber", amount = 1},
+		{type = "item", name = "lithium-plate", amount = 2},
+		{type = "fluid", name = "fluoroketone-cold", amount = 10, ignored_by_stats = 10}
+	}
+end
+
+if data.raw.recipe["speed-mnodule-mk3"] then
+	data.raw.recipe["superconductor"].ingredients = {
+		{type = "item", name = "advanced-circuitg", amount = 5},
+		{type = "item", name = "processing-unit", amount = 5},
+		{type = "item", name = "speed-mnodule-mk2", amount = 4},
+		{type = "item", name = "tungsten-plate", amount = 1}
 	}
 end
 
@@ -146,7 +166,7 @@ if data.raw.recipe["mech-armor"] then
 		{type = "item", name = "power-armor-mk2", amount = 1},
 		{type = "item", name = "processing-unit", amount = 200},
 		{type = "item", name = "steel-plate", amount = 200},
-		{type = "item", name = "tungsten-carbide", amount = 500},
+		{type = "item", name = "tungsten-plate", amount = 500},
 		{type = "item", name = "bioflux", amount = 20}
 	}
 end
