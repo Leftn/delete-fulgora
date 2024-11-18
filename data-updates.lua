@@ -50,6 +50,15 @@ if data.raw.recipe["molten-copper"] then
 	}
 end
 
+if data.raw.recipe["superconductor"] then
+	data.raw.recipe["superconductor"].ingredients = {
+		{type = "fluid", name = "light-oil", amount = 10},
+		{type = "item", name = "bioflux", amount = 1},
+		{type = "item", name = "plastic-bar", amount = 1},
+		{type = "item", name = "tungsten-plate", amount = 1}
+	}
+end
+
 if data.raw.recipe["tungsten-plate"] then
 	data.raw.recipe["tungsten-plate"].ingredients = {
 		{type = "fluid", name = "molten-iron", amount = 10},
@@ -99,6 +108,15 @@ if data.raw.recipe["big-mining-drill"] then
 			min = 1000,
 			max = 2000
 		}
+	}
+if data.raw.recipe["mech-armor"] then
+	data.raw.recipe["mech-armor"].ingredients = {
+		{type = "item", name = "superconductor", amount = 100},
+		{type = "item", name = "power-armor-mk2", amount = 1},
+		{type = "item", name = "processing-unit", amount = 200},
+		{type = "item", name = "steel-plate", amount = 200},
+		{type = "item", name = "tungsten-plate", amount = 500},
+		{type = "item", name = "bioflux", amount = 20}
 	}
 end
 
