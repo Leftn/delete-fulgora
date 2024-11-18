@@ -165,18 +165,12 @@ if data.raw.item["tungsten-plate"] then
 end
 -- End item editing
 
-data.raw.planet["vulcanus"].map_gen_settings = null
-if data.raw.planet["vulcanus"] then
-	data.raw.planet["vulcanus"].hidden = true
+data.raw.planet["fulgora"].map_gen_settings = null
+if data.raw.planet["fulgora"] then
+	data.raw.planet["fulgora"].hidden = true
 end
 
-data.raw["utility-constants"]["default"].main_menu_simulations.fulgora_city_crossing = data.raw["utility-constants"]["default"].main_menu_simulations.nauvis_biolab
-data.raw["utility-constants"]["default"].main_menu_simulations.fulgora_recycling_hell = data.raw["utility-constants"]["default"].main_menu_simulations.nauvis_biolab
-data.raw["utility-constants"]["default"].main_menu_simulations.fulgora_nightfall = data.raw["utility-constants"]["default"].main_menu_simulations.nauvis_biolab
-data.raw["utility-constants"]["default"].main_menu_simulations.fulgora_race = data.raw["utility-constants"]["default"].main_menu_simulations.nauvis_biolab
-
-
-delete_generic("planet-discovery-vulcanus", "technology")
+delete_generic("planet-discovery-fulgora", "technology")
 delete_generic("calcite-processing", "technology")
 delete_generic("tungsten-carbide", "technology")
 
