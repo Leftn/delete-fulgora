@@ -122,16 +122,6 @@ if data.raw.recipe["mech-armor"] then
 	}
 end
 
-if data.raw.recipe["speed-module-3"] then
-	data.raw.recipe["speed-module-3"].ingredients =
-    {
-      {type = "item", name = "speed-module-2", amount = 4},
-      {type = "item", name = "advanced-circuit", amount = 5},
-      {type = "item", name = "processing-unit", amount = 5},
-	  {type = "item", name = "tungsten-plate", amount = 1},
-    }
-end
-
 if data.raw.recipe["advanced-metallic-asteroid-crushing"] then
 	data.raw.recipe["advanced-metallic-asteroid-crushing"].results = {
       {type = "item", name = "iron-ore", amount = 10},
