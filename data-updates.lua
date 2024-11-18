@@ -83,34 +83,6 @@ if data.raw.recipe["foundry"] then
 	}
 end
 
-if data.raw.recipe["quantum-processor"] then
-	data.raw.recipe["quantum-processor"].ingredients = {
-		{type = "item", name = "tungsten-plate", amount = 1},
-		{type = "item", name = "processing-unit", amount = 1},
-		{type = "item", name = "superconductor", amount = 1},
-		{type = "item", name = "carbon-fiber", amount = 1},
-		{type = "item", name = "lithium-plate", amount = 2},
-		{type = "fluid", name = "fluoroketone-cold", amount = 10, ignored_by_stats = 10}
-	}
-end
-
-if data.raw.recipe["big-mining-drill"] then
-	data.raw.recipe["big-mining-drill"].ingredients = {
-      {type = "item", name = "electric-mining-drill", amount = 1},
-      {type = "fluid", name = "molten-iron", amount = 200},
-      {type = "item", name = "superconductor", amount = 20},
-      {type = "item", name = "electric-engine-unit", amount = 10},
-      {type = "item", name = "advanced-circuit", amount = 10}
-	}
-	data.raw.recipe["big-mining-drill"].surface_conditions = {
-		{
-			property = "pressure",
-			min = 1000,
-			max = 2000
-		}
-	}
-end
-
 if data.raw.recipe["mech-armor"] then
 	data.raw.recipe["mech-armor"].ingredients = {
 		{type = "item", name = "superconductor", amount = 100},
