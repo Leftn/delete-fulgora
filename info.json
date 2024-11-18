@@ -4,6 +4,6 @@
 	"title": "Delete Fulgora",
 	"author": "Leftn",
 	"factorio_version": "2.0",
-	"dependencies": ["base >= 2.0.0", "space-age >= 2.0.15", "delete-planet-compatability >= 0.0.1"],
+	"dependencies": ["base >= 2.0.0", "space-age >= 2.0.15", "delete-planet-compatability >= 0.0.2"],
 	"description": "I love Fulgora. But some people don't. So this mod deletes it and moves some of it's products/technologies to other areas"
 }
