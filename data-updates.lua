@@ -109,6 +109,8 @@ if data.raw.recipe["big-mining-drill"] then
 			max = 2000
 		}
 	}
+end
+
 if data.raw.recipe["mech-armor"] then
 	data.raw.recipe["mech-armor"].ingredients = {
 		{type = "item", name = "superconductor", amount = 100},
