@@ -10,3 +10,8 @@ Date: 18.11.2024
     - Fixed certain recipes using the deleted tungsten carbide item
     - Moved speed module and quantum processor to the delete-vulcanus mod
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.3
+Date: 6.12.2024
+  Bugfix:
+    - Fixed using null instead of luas nil
+---------------------------------------------------------------------------------------------------

@@ -4,7 +4,7 @@ local recycling = require("__quality__.prototypes.recycling")
 -- Start technology editing
 if data.raw.technology["recycling"] then
 	data.raw.technology["recycling"].prerequisites = {"metallurgic-science-pack"}
-	data.raw.technology["recycling"].research_trigger = null
+	data.raw.technology["recycling"].research_trigger = nil
 	data.raw.technology["recycling"].unit =
     {
 		ingredients =
@@ -26,7 +26,7 @@ end
 
 if data.raw.technology["electromagnetic-plant"] then
 	data.raw.technology["electromagnetic-plant"].prerequisites = {"recycling", "production-science-pack"}
-	data.raw.technology["electromagnetic-plant"].research_trigger = null
+	data.raw.technology["electromagnetic-plant"].research_trigger = nil
 	data.raw.technology["electromagnetic-plant"].unit =
     {
 		ingredients =
@@ -55,7 +55,7 @@ end
 
 if data.raw.technology["electromagnetic-science-pack"] then
 	data.raw.technology["electromagnetic-science-pack"].prerequisites = {"electromagnetic-plant"}
-	data.raw.technology["electromagnetic-science-pack"].research_trigger = null
+	data.raw.technology["electromagnetic-science-pack"].research_trigger = nil
 	data.raw.technology["electromagnetic-science-pack"].unit =
     {
 		ingredients =
@@ -223,7 +223,7 @@ if data.raw.item["tesla-turret"] then
 end
 -- End item editing
 
-data.raw.planet["fulgora"].map_gen_settings = null
+data.raw.planet["fulgora"].map_gen_settings = nil
 if data.raw.planet["fulgora"] then
 	data.raw.planet["fulgora"].hidden = true
 end
